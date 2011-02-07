@@ -1,0 +1,74 @@
+@import url(../reindeer/styles.css);
+
+.header {
+	background-color: #000;
+	background-image: url("img/header-gradient.png");
+	background-position: left top;
+	background-repeat: repeat-x;
+	margin-bottom: 0px;
+	padding-left: 5px;
+}
+
+.header-image {
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.login-image {
+	padding-bottom: 20px;
+}
+
+.login-background {
+	background-color: #000;
+	background-image: url("img/login-gradient.png");
+	background-position: left top;
+	background-repeat: repeat-x;
+	margin-bottom: 0px;
+	padding-left: 5px;
+}
+
+.login-form {
+	background: #transparent !important;
+	color: #ffffff;
+}
+
+.v-app,.v-window,.v-panel,.v-popup,.v-popup-view,.v-popupview-popup,.v-form,.v-formlayout,.v-formlayout-row,.v-formlayout-contentcell,.v-formlayout-captioncell,.v-tabsheet,.v-table,.v-table-caption,.v-table-caption-container,.v-label,.v-button,.v-button-caption,.v-link,.v-textfield,.v-textarea,textarea.v-textarea,.v-input,input.v-textfield,.v-filterselect,.v-filterselect-input,.v-filterselect-suggestmenu,.v-caption,.v-caption-text,.v-tooltip,.v-contextmenu,.v-select-twincol,.v-select-twincol-options,.v-select-twincol-selections,.v-datefield-popup
+	{
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif
+		!important;
+}
+
+.v-label-user {
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 14px;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 5px;
+	text-shadow: none;
+}
+
+.v-button-logout .v-button-caption,.v-button-wrap-logout {
+	color: white;
+	background: #F48211;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 14px;
+	margin: 0px;
+	padding-bottom: 5px !important;
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-top: 0px;
+	text-decoration: none;
+}
+
+.v-tabsheet-tabitem {
+	color: grey;
+	font-weight: bold;
+}
+
+.v-tabsheet-tabitem-selected {
+	color: #222222;
+}
